@@ -6,7 +6,4 @@ class Solution(object):
                 new_string+=i.lower()
         original=new_string
         new_string=new_string[::-1]
-        if new_string==original:
-            return True
-        else:
-            return False
+        return new_string==original
