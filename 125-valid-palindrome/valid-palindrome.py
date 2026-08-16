@@ -7,3 +7,4 @@ class Solution(object):
         original=new_string
         new_string=new_string[::-1]
         return new_string==original
+        
